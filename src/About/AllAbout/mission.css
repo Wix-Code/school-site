@@ -1,0 +1,115 @@
+.mission{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mission1{
+  flex: 1;
+}
+.mission1 img{
+  height: 360px;
+  object-fit: cover;
+  width: 100%;
+}
+.mission2{
+  flex: 1;
+}
+.mison1 img{
+  width: 55px;
+}
+.mison{
+  display: flex;
+  gap: 50px;
+  padding: 20px 60px;
+}
+.mison2 h1{
+  text-transform: capitalize;
+  font-family: 'sans-serif';
+  color: #111111;
+  font-size: 28px;
+}
+.mison2 p{
+  margin-top: 8px;
+  text-align: justify;
+  color: #666666;
+  font-size: 15px;
+  line-height: 30px;
+}
+.lab button{
+  padding: 22px 44px;
+  background: #f1ed02;
+  border-radius: 52px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.lab button:hover{
+  background: #111111;
+}
+
+@media screen and (max-width: 450px) {
+  .mission{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mission1{
+    margin: 0px 10px;
+  }
+  .mison2 h1{
+    font-size: 20px;
+  }
+  .mison1 img{
+    width: 30px;
+  }
+  .mison{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+  .lab button{
+    padding: 15px 28px;
+    background: #f1ed02;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width : 451px) {
+  .mission{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .mission1{
+    padding: 0px 20px;
+    width: 100%;
+  }
+  .mission1 img{
+    width: 100%;
+  }
+  .mison{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width : 851px) {
+  .mission1{
+    padding: 0px 20px;
+  }
+  .mison{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+}
+
+
+
+

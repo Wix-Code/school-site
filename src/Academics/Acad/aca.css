@@ -1,0 +1,6 @@
+.aca1{
+  background-image: linear-gradient(to bottom, rgba(51, 51, 51, 0.322), rgba(36, 36, 36, 0.363)), url('./stu3.jpg');
+  padding: 100px 0px;
+  background-position: center;
+  background-size: cover;
+}

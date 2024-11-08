@@ -1,0 +1,44 @@
+.all_icons{
+  background-image: linear-gradient(to bottom, rgba(255, 252, 84, 0.596), rgba(255, 241, 44, 0.644)), url('./stu8.jpg');
+  padding: 100px 0px;
+  background-position: center;
+  background-size: cover;
+}
+.all_icon{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all_ico img{
+  width: 240px;
+}
+
+@media  screen and (max-width: 450px){
+  .all_icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .all_ico img{
+    width: 100px;
+  }
+}
+@media screen and (max-width: 850px) and (min-width : 451px) {
+  .all_icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px 20px;
+  }
+  .all_ico img{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width : 851px) {
+ .all_icon{
+  padding: 0px 20px;
+ }
+}
+

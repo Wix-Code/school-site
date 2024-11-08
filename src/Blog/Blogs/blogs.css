@@ -1,0 +1,6 @@
+.blog_hero{
+  background-image: linear-gradient(to bottom, rgba(24, 24, 24, 0.322), rgba(14, 14, 14, 0.363)), url('./stu4.jpg');
+  padding: 100px 0px;
+  background-position: center;
+  background-size: cover;
+}

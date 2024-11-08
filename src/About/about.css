@@ -1,0 +1,73 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+.about1{
+  background-image: linear-gradient(to bottom, rgba(51, 51, 51, 0.322), rgba(36, 36, 36, 0.363)), url('../About/pic/stu6.jpg');
+  padding: 100px 0px;
+  background-position: center;
+  background-size: cover;
+}
+.about_1{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: 160px;
+  align-items: center;
+  justify-content: space-between;
+}
+.abo_left h1{
+  font-size: 70px;
+  font-family: 'sans-serif';
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.abo_left h3{
+  color: #ffffff;
+  font-family: 'sans-serif';
+  font-size: 20px;
+}
+.abo_right{
+  display: flex;
+  gap: 10px;
+}
+.abo_right p{
+  color: #b3b3b3;
+  transition: all 0.4s;
+}
+.abo_right span{
+  color: #fffb0b;
+}
+.abo_right .i{
+  color: #ffffff;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.abo_right .i:hover{
+  color: #fffb0b;
+}
+
+@media screen and (max-width: 450px) {
+  .about_1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+  }
+  .abo_left h1{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width : 451px) {
+  .about_1{
+    padding: 0px 20px;
+  }
+}
+
+
+
